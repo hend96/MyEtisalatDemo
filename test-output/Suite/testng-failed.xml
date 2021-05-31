@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Appuim.demo.HomeTest">
+        <methods>
+          <include name="clickOnServiceTab"/>
+        </methods>
+      </class> <!-- Appuim.demo.HomeTest -->
+      <class name="Appuim.demo.ServicesTest">
+        <methods>
+          <include name="clickOnIslamic"/>
+        </methods>
+      </class> <!-- Appuim.demo.ServicesTest -->
+      <class name="Appuim.demo.IslamicServiceTest">
+        <methods>
+          <include name="clickOnBackbtn"/>
+        </methods>
+      </class> <!-- Appuim.demo.IslamicServiceTest -->
+      <class name="Appuim.demo.LoginTest">
+        <methods>
+          <include name="testLoginToApp"/>
+          <include name="connect"/>
+        </methods>
+      </class> <!-- Appuim.demo.LoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
